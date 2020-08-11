@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+
+.box-container {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+.sliding-text {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slider-wrapper {
+    margin-top: 60px;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre-text {
+    color: #9c89b8;
+}
+
+.slider {
+    height: 60px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.slider div {
+    height: 60px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.slider-text1{
+    animation: slide 5s linear infinite;
+    background-color: #3d405b;
+}
+.slider-text2 {
+    background-color: #ffd6a5;
+}
+
+.slider-text3 {
+    background-color: #9de5f1;
+}
+
+.slider-text4 {
+    background-color: #FFC8C8;
+    
+}
+
+
+
+@keyframes slide {
+    0% {
+        margin-top: -240px;
+    }
+
+    12% {
+        margin-top: -180px;
+    }
+    25% {
+        margin-top: -180px;
+    }
+
+    38% {
+        margin-top: -120px;
+    }
+
+    50% {
+        margin-top: -120px;
+    }
+
+    62% {
+        margin-top: -60px;
+    }
+
+    75% {
+        margin-top: -60px;
+    }
+
+    87% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
